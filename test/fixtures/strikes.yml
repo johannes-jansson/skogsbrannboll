@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  score_a: 1
+  score_b: 1
+  bat: 1.5
+  ball: 1.5
+
+two:
+  score_a: 1
+  score_b: 1
+  bat: 1.5
+  ball: 1.5

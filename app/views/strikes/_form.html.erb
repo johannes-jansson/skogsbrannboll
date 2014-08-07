@@ -1,0 +1,13 @@
+<%= form_for :strike, url: strikes_path do |f| %>
+    <tr>
+        <td><!--<%= f.label :score_a %><br />-->
+    <%= f.number_field :score_a %></td>
+<td><!--<%= f.label :score_b %><br />-->
+    <%= f.number_field :score_b %></td>
+<td><!--<%= f.label :bat %><br />-->
+    <%= f.text_field :bat %></td>
+<td><!--<%= f.label :ball %><br />-->
+    <%= f.text_field :ball %></td>
+    </tr>
+    <tr><td><%= f.submit %></td></tr>
+<% end %>
